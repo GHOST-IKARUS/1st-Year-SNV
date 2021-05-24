@@ -13,6 +13,16 @@ Contents
 
 **Advanced Python:** **[`Modules`](#modules)__,__[`Iterators`](#iterators)__,__[`Generators`](#generators)__,__[`Decorators`](#decorators)__,__[`Class`](#class)__,__[`Exceptions`](#exceptions)__,__[`Command Line Arguments`](#command-line-arguments)__,__[`File IO`](#file-io)__,__[`Useful Libraries`](#useful-libraries)**  
 
+Contents
+--------
+**Python Types:** **[`Numbers`](#numbers)__,__[`Strings`](#strings)__,__[`Boolean`](#boolean)__,__[`Lists`](#lists)__,__[`Dictionaries`](#dictionaries)__,__ [`Tuples`](#tuples)__,__[`Sets`](#sets)__,__[`None`](#none)**  
+
+**Python Basics:** **[`Comparison Operators`](#comparison-operators)__,__[`Logical Operators`](#logical-operators)__,__[`Loops`](#loops)__,__[`Range`](#range)__,__[`Enumerate`](#enumerate)__,__[`Counter`](#counter)__,__[`Named Tuple`](#named-tuple)__,__[`OrderedDict`](#ordereddict)**    
+
+**Functions:** **[`Functions`](#functions)__,__[`Lambda`](#lambda)__,__[`Comprehensions`](#comprehensions)__,__[`Map,Filter,Reduce`](#map-filter-reduce)__,__[`Ternary`](#ternary-condition)__,__[`Any,All`](#any-all)__,__[`Closures`](#closures)__,__[`Scope`](#scope)**    
+
+**Advanced Python:** **[`Modules`](#modules)__,__[`Iterators`](#iterators)__,__[`Generators`](#generators)__,__[`Decorators`](#decorators)__,__[`Class`](#class)__,__[`Exceptions`](#exceptions)__,__[`Command Line Arguments`](#command-line-arguments)__,__[`File IO`](#file-io)__,__[`Useful Libraries`](#useful-libraries)**  
+
 
 Numbers
 ----
@@ -67,14 +77,14 @@ type('Hellloooooo') # str
 "\t" # adds a tab
 
 'Hey you!'[4] # y
-name = 'Andrei Neagoie'
-name[4]     # e
-name[:]     # Andrei Neagoie
-name[1:]    # ndrei Neagoie
-name[:1]    # A
-name[-1]    # e
-name[::1]   # Andrei Neagoie
-name[::-1]  # eiogaeN ierdnA
+name = 'Zekrifa Djabeur'
+name[4]     # r
+name[:]     # Zekrifa Djabeur
+name[1:]    # ekrifa Djabeur
+name[:1]    # Z
+name[-1]    # r
+name[::1]   # Zekrifa Djabeur
+name[::-1]  # ruebajD afirkeZ
 name[0:10:2]# Ade e
 # : is called slicing and has the format [ start : end : step ]
 
@@ -261,13 +271,13 @@ Dictionaries
 ----------
 **Also known as mappings or hash tables. They are key value pairs that are guaranteed to retain order of insertion starting from Python 3.7**
 ```python
-my_dict = {'name': 'Andrei Neagoie', 'age': 30, 'magic_power': False}
-my_dict['name']                      # Andrei Neagoie
+my_dict = {'name': 'Zekrifa Djabeur', 'age': 34, 'magic_power': False}
+my_dict['name']                      # Zekrifa Djabeur
 len(my_dict)                         # 3
 list(my_dict.keys())                 # ['name', 'age', 'magic_power']
-list(my_dict.values())               # ['Andrei Neagoie', 30, False]
-list(my_dict.items())                # [('name', 'Andrei Neagoie'), ('age', 30), ('magic_power', False)]
-my_dict['favourite_snack'] = 'Grapes'# {'name': 'Andrei Neagoie', 'age': 30, 'magic_power': False, 'favourite_snack': 'Grapes'}
+list(my_dict.values())               # ['Zekrifa Djabeur', 34, False]
+list(my_dict.items())                # [('name', 'Zekrifa Djabeur'), ('age', 34), ('magic_power', False)]
+my_dict['favourite_snack'] = 'Grapes'# {'name': 'Zekrifa Djabeur', 'age': 34, 'magic_power': False, 'favourite_snack': 'Grapes'}
 my_dict.get('age')                   # 30 --> Returns None if key does not exist.
 my_dict.get('ages', 0 )              # 0 --> Returns default (2nd param) if key is not found
 
@@ -277,8 +287,8 @@ my_dict.pop('name', None)
 ```
 
 ```python
-my_dict.update({'cool': True})                                         # {'name': 'Andrei Neagoie', 'age': 30, 'magic_power': False, 'favourite_snack': 'Grapes', 'cool': True}
-{**my_dict, **{'cool': True} }                                         # {'name': 'Andrei Neagoie', 'age': 30, 'magic_power': False, 'favourite_snack': 'Grapes', 'cool': True}
+my_dict.update({'cool': True})                                         # {'name': 'Zekrifa Djabeur', 'age': 34, 'magic_power': False, 'favourite_snack': 'Grapes', 'cool': True}
+{**my_dict, **{'cool': True} }                                         # {'name': 'Zekrifa Djabeur', 'age': 34, 'magic_power': False, 'favourite_snack': 'Grapes', 'cool': True}
 new_dict = dict([['name','Andrei'],['age',32],['magic_power',False]])  # Creates a dict from collection of key-value pairs.
 new_dict = dict(zip(['name','age','magic_power'],['Andrei',32, False]))# Creates a dict from two collections.
 new_dict = my_dict.pop('favourite_snack')                              # Removes item from dictionary.
@@ -286,7 +296,7 @@ new_dict = my_dict.pop('favourite_snack')                              # Removes
 
 ```python
 # Dictionary Comprehension
-{key: value for key, value in new_dict.items() if key == 'age' or key == 'name'} # {'name': 'Andrei', 'age': 32} --> Filter dict by keys
+{key: value for key, value in new_dict.items() if key == 'age' or key == 'name'} # {'name': 'Djabeur', 'age': 34} --> Filter dict by keys
 ```
 
 Tuples
@@ -1071,4 +1081,4 @@ import re
 
 Credits
 ------
-Inspired by: https://github.com/gto76/python-cheatsheet
+ZDMS
