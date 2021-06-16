@@ -14,7 +14,7 @@ print("Soit une équation de la forme : ax^2 + bx + c = 0")
 # et non une chaîne de charactère (comme pour une phrase)
 
 a = float(input("a = "))
-b = float(input("b = "))a = float(input("a = "))
+b = float(input("b = "))
 c = float(input("c = "))
 
 # Calcul du discriminant delta = b**2 - 4*a*c.
@@ -35,7 +35,8 @@ else:
     
     #Sinon,  delta ne peut plus qu'être positif.
     else:
-        print("L'équation a deux solutions solutions.")
+        print("L'équation a deux solution.")
         x1 = (-b - math.sqrt(delta)) /(2*a)
         x2 = (-b + math.sqrt(delta)) /(2*a)
-        print ("Les solutions sont x1 = ",x1, " et ", x2)
+        print ("Les solutions sont x1 = ",x1, " et x2= ", x2)
+        
