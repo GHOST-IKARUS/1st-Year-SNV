@@ -1077,7 +1077,7 @@ import re
 '\s' == '[ \t\n\r\f\v]'  # Whitespace
 '\w' == '[a-zA-Z0-9_]'   # Alphanumeric
 ```
-
+ 
 
 Credits
 ------
