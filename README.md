@@ -3,6 +3,9 @@ Python ZDMS Cheatsheet 💻🚀
 
 We created this Python 3 Cheat Sheet initially for students of CPST and SNV  but we're now sharing it with any Python beginners to help them learn and remember common Python syntax and with intermediate and advanced Python developers as a handy reference.
 
+Link to the excellent Python Tutor site, which allows to see the execution of a Python program step by step. Remember to choose Python 3.
+
+Click the link http://pythontutor.com to open the resource.
 Contents
 --------
 **Python Types:** **[`Numbers`](#numbers)__,__[`Strings`](#strings)__,__[`Boolean`](#boolean)__,__[`Lists`](#lists)__,__[`Dictionaries`](#dictionaries)__,__ [`Tuples`](#tuples)__,__[`Sets`](#sets)__,__[`None`](#none)**  
@@ -46,6 +49,7 @@ type(4E2) # float - 4*10 to the power of 2
 10 // 3 # 3 --> floor division - no decimals and returns an int
 10 % 3  # 1 --> modulo operator - return the reminder. Good for deciding if number is even or odd
 ```
+
 
 ```python
 # Basic Functions
